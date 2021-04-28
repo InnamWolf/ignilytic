@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1188.48,-100.791)">
+        <g id="Logo_Facebook" transform="matrix(0.417182,0,0,0.580082,252.602,85.553)">
+            <rect x="2243.32" y="26.269" width="479.407" height="344.779" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="2243.32" y="26.269" width="479.407" height="344.779"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(7.22915,0,0,3.63933,-14331.1,-279.996)">
+                    <ellipse cx="2327.53" cy="133.891" rx="31.5" ry="45" style="fill:rgb(21,39,53);"/>
+                </g>
+                <g id="Circulo" transform="matrix(-1.82517,-1.11751,1.55387,-1.31262,2522.66,891.436)">
+                    <path id="Parte-1" serif:id="Parte 1" d="M237.177,372.391C205.638,362.352 182.678,331.539 182.678,295.084C182.678,250.485 217.042,214.33 259.432,214.33L259.432,234.519C227.639,234.519 201.866,261.635 201.866,295.084C201.866,320.231 216.433,341.799 237.177,350.957L237.177,294.302L207.427,294.302L259.927,241.052L259.432,371.698L259.432,375.838C252.179,375.838 245.161,374.779 238.514,372.802L237.765,372.593L237.177,372.391Z" style="fill:rgb(255,193,89);"/>
+                    <g id="Parte-2" serif:id="Parte 2" transform="matrix(-1,0,0,-1,532.105,589.418)">
+                        <path d="M237.177,372.391C205.638,362.352 182.678,331.539 182.678,295.084C182.678,250.485 217.042,214.33 259.432,214.33L259.432,234.519C227.639,234.519 201.866,261.635 201.866,295.084C201.866,320.231 216.433,341.799 237.177,350.957L237.177,294.302L207.427,294.302L259.927,241.052L259.432,371.698L259.432,375.838C252.179,375.838 245.161,374.779 238.514,372.802L237.765,372.593L237.177,372.391Z" style="fill:rgb(55,124,224);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
