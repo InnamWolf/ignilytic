@@ -14,6 +14,7 @@
   Librerias CSS
   =================================================-->
   <link rel="stylesheet" href="vistas/css/normalize.css"/>
+  <link rel="stylesheet" href="vistas/css/main.css">
   <!--===============================================
   Librerias JS
   =================================================-->
@@ -21,6 +22,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLY0H0KFYK"></script>
 </head>
 <body>
-  hola
+  
 </body>
 </html>
