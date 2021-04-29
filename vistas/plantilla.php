@@ -15,6 +15,7 @@
   =================================================-->
   <link rel="stylesheet" href="vistas/css/normalize.css"/>
   <link rel="stylesheet" href="vistas/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <!--===============================================
   Librerias JS
   =================================================-->
@@ -22,6 +23,23 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLY0H0KFYK"></script>
 </head>
 <body>
-  hola
+    <div class="wrapper">
+      <nav>
+        <div class="logo">
+          <a href="#">
+            <img src="vistas/img/logo.svg" alt="logo">
+            <span>Ignilytic</span>
+          </a>
+          <i class="fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+        <div class="contenedor-item">
+          <a href="#">Inicio</a>
+          <a href="#">Servicios</a>
+          <a href="#">Portafolio</a>
+          <a href="#">FAQ</a>
+          <a href="#" class="btn-saga">Iniciar sesión</a>
+        </div>        
+      </nav>
+    </div>
 </body>
 </html>
