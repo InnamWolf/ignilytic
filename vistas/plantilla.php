@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="vistas/css/normalize.css"/>
   <link rel="stylesheet" href="vistas/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <!--===============================================
   Librerias JS
   =================================================-->
@@ -30,9 +34,9 @@
             <img src="vistas/img/logo.svg" alt="logo">
             <span>Ignilytic</span>
           </a>
-          <i class="fa fa-bars menu" aria-hidden="true"></i>
+          <i class="fa fa-bars menu" id="menu" aria-hidden="true"></i>
         </div>
-        <div class="contenedor-item">
+        <div class="contenedor-item invisible">
           <a href="#">Inicio</a>
           <a href="#">Servicios</a>
           <a href="#">Portafolio</a>
@@ -41,5 +45,6 @@
         </div>        
       </nav>
     </div>
+    <script src="vistas/js/main.js"></script>
 </body>
 </html>

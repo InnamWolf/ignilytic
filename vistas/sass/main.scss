@@ -31,6 +31,7 @@ nav {
     .menu {
       font-size: 25px;
       color: $gris;
+      cursor: pointer;
     }
     a {
       display: flex;
@@ -55,7 +56,6 @@ nav {
     a:nth-child(4) {
       border: none;
     }
-
     .btn-saga {
       background: $azul-claro;
       border-radius: 3px;
@@ -66,5 +66,12 @@ nav {
         background: darken($azul-claro, 5);
       }
     }
+  }
+
+  .visible {
+    display: block;
+  }
+  .invisible {
+    display: none;
   }
 }

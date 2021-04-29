@@ -50,6 +50,7 @@ nav .logo {
 nav .logo .menu {
   font-size: 25px;
   color: #edf2f4;
+  cursor: pointer;
 }
 nav .logo a {
   display: flex;
@@ -83,6 +84,12 @@ nav .contenedor-item .btn-saga {
 }
 nav .contenedor-item .btn-saga:hover {
   background: #4ba1f0;
+}
+nav .visible {
+  display: block;
+}
+nav .invisible {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
