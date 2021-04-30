@@ -37,6 +37,13 @@ nav {
   padding: 10px;
   font-family: "Fredoka One", cursive;
 }
+@media only screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+}
 nav a {
   text-decoration: none;
   color: #edf2f4;
@@ -47,10 +54,20 @@ nav .logo {
   justify-content: space-between;
   margin-bottom: 10px;
 }
+@media only screen and (min-width: 768px) {
+  nav .logo {
+    margin-bottom: 0;
+  }
+}
 nav .logo .menu {
   font-size: 25px;
   color: #edf2f4;
   cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  nav .logo .menu {
+    display: none;
+  }
 }
 nav .logo a {
   display: flex;
@@ -67,10 +84,24 @@ nav .contenedor-item {
   display: flex;
   flex-direction: column;
   width: 100%;
+  visibility: hidden;
+}
+@media only screen and (min-width: 768px) {
+  nav .contenedor-item {
+    visibility: visible;
+    flex-direction: row;
+    width: 59%;
+    padding: 5px;
+  }
 }
 nav .contenedor-item a {
   padding: 10px;
   border-bottom: 1px solid #edf2f4;
+}
+@media only screen and (min-width: 768px) {
+  nav .contenedor-item a {
+    border: none;
+  }
 }
 nav .contenedor-item a:nth-child(4) {
   border: none;
@@ -87,9 +118,6 @@ nav .contenedor-item .btn-saga:hover {
 }
 nav .activo {
   visibility: visible;
-}
-nav .inactivo {
-  visibility: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -36,7 +36,7 @@
           </a>
           <i class="fa fa-bars menu" id="menu" aria-hidden="true"></i>
         </div>
-        <div class="contenedor-item inactivo">
+        <div class="contenedor-item">
           <a href="#">Inicio</a>
           <a href="#">Servicios</a>
           <a href="#">Portafolio</a>
