@@ -68,10 +68,10 @@ nav {
     }
   }
 
-  .visible {
-    display: block;
+  .activo {
+    visibility: visible;
   }
-  .invisible {
-    display: none;
+  .inactivo {
+    visibility: hidden;
   }
 }

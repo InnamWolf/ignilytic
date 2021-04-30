@@ -85,11 +85,11 @@ nav .contenedor-item .btn-saga {
 nav .contenedor-item .btn-saga:hover {
   background: #4ba1f0;
 }
-nav .visible {
-  display: block;
+nav .activo {
+  visibility: visible;
 }
-nav .invisible {
-  display: none;
+nav .inactivo {
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */
