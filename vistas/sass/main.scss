@@ -24,6 +24,10 @@ nav {
     justify-content: space-between;
     margin: auto;
   }
+  @include desktop() {
+    width: 1200px;
+  }
+
   a {
     text-decoration: none;
     color: $gris;
@@ -67,11 +71,18 @@ nav {
       width: 59%;
       padding: 5px;
     }
+    @include desktop() {
+      width: 80%;
+      justify-content: space-evenly;
+    }
     a {
       padding: 10px;
       border-bottom: 1px solid $gris;
       @include tablet() {
         border: none;
+        &:hover {
+          color: $limon;
+        }
       }
     }
     a:nth-child(4) {
