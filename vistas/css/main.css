@@ -37,16 +37,12 @@ nav {
   padding: 10px;
   font-family: "Fredoka One", cursive;
 }
-@media only screen and (min-width: 768px) {
-  nav {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-  }
-}
 @media only screen and (min-width: 1024px) {
   nav {
     width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
   }
 }
 nav a {
@@ -59,17 +55,12 @@ nav .logo {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-@media only screen and (min-width: 768px) {
-  nav .logo {
-    margin-bottom: 0;
-  }
-}
 nav .logo .menu {
   font-size: 25px;
   color: #edf2f4;
   cursor: pointer;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   nav .logo .menu {
     display: none;
   }
@@ -91,25 +82,20 @@ nav .contenedor-item {
   width: 100%;
   visibility: hidden;
 }
-@media only screen and (min-width: 768px) {
-  nav .contenedor-item {
-    visibility: visible;
-    flex-direction: row;
-    width: 59%;
-    padding: 5px;
-  }
-}
 @media only screen and (min-width: 1024px) {
   nav .contenedor-item {
     width: 80%;
     justify-content: space-evenly;
+    visibility: visible;
+    flex-direction: row;
+    padding: 10px;
   }
 }
 nav .contenedor-item a {
   padding: 10px;
   border-bottom: 1px solid #edf2f4;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   nav .contenedor-item a {
     border: none;
   }
