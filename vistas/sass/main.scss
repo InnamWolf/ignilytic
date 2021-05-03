@@ -13,24 +13,22 @@ body {
 }
 
 /*=================================================
-Nav menu
+Nav Movil
 =================================================*/
-nav {
+.movil {
+  display: block;
+  @include desktop {
+    display: none;
+  }
   width: 100%;
   padding: 10px;
   font-family: $fredo;
-
-  @include desktop() {
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-  }
 
   a {
     text-decoration: none;
     color: $gris;
   }
+  // Logo
   .logo {
     display: flex;
     align-items: center;
@@ -40,9 +38,6 @@ nav {
       font-size: 25px;
       color: $gris;
       cursor: pointer;
-      @include desktop() {
-        display: none;
-      }
     }
     a {
       display: flex;
@@ -56,27 +51,14 @@ nav {
       }
     }
   }
+  // Contenedor
   .contenedor-item {
-    display: flex;
-    flex-direction: column;
+    display: none;
     width: 100%;
-    visibility: hidden;
-    @include desktop() {
-      width: 80%;
-      justify-content: space-evenly;
-      visibility: visible;
-      flex-direction: row;
-      padding: 10px;
-    }
     a {
       padding: 10px;
       border-bottom: 1px solid $gris;
-      @include desktop() {
-        border: none;
-        &:hover {
-          color: $limon;
-        }
-      }
+      display: block;
     }
     a:nth-child(4) {
       border: none;
@@ -92,8 +74,15 @@ nav {
       }
     }
   }
+}
 
-  .activo {
-    visibility: visible;
-  }
+/*=================================================
+Nav PC
+=================================================*/
+
+/*=================================================
+Carrusel
+=================================================*/
+.carrusel {
+  background: pink;
 }
