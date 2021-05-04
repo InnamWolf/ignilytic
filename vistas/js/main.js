@@ -6,3 +6,16 @@ $(document).ready(function () {
     $('.contenedor-item').toggle('blind', 800);
   });
 });
+
+/*=================================================
+Carrusel
+=================================================*/
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true,
+  center: true,
+  items: 1,
+  margin: 2,
+});

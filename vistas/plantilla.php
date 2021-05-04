@@ -77,16 +77,12 @@
     <div class="item img2"></div>
     <div class="item img3"></div>     
   </div>
-  <script>
-      $('.owl-carousel').owlCarousel({
-    loop:true,    
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
-    center: true,
-    items:1,margin: 2,    
-})
-    </script>  
-  <script src="vistas/js/main.js"></script>
+  <!--===============================================
+  Texto 1
+  =================================================-->
+  <section class="division">
+    <p>Soluciones en tecnología para tu proyecto</p>
+  </section>
+<script src="vistas/js/main.js"></script>
 </body>
 </html>

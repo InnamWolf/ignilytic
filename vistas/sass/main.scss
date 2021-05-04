@@ -5,6 +5,8 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -145,13 +147,15 @@ Carrusel
     margin-top: 0;
   }
   .item {
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     background-position: center;
     @include desktop {
-      height: 400px;
+      height: 500px;
+      width: 1200px;
+      margin: auto;
     }
   }
   .img1 {
@@ -162,5 +166,23 @@ Carrusel
   }
   .img3 {
     background-image: url('../img/carrusel/3.jpg');
+  }
+}
+/*=================================================
+Division
+=================================================*/
+.division {
+  margin: auto;
+  font-family: $fredo;
+  text-align: center;
+  border-bottom: 3px solid $limon;
+  border-radius: 3px;
+  width: 80%;
+  color: $blanco;
+  padding-bottom: 10px;
+  @include desktop {
+    font-size: 30px;
+    width: 700px;
+    border-bottom: 4px solid $limon;
   }
 }

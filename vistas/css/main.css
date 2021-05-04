@@ -22,6 +22,8 @@ Colores
 *::after,
 *::before {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -161,7 +163,7 @@ Carrusel
   margin-top: 0;
 }
 .carrusel .item {
-  height: 200px;
+  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -169,7 +171,9 @@ Carrusel
 }
 @media only screen and (min-width: 1024px) {
   .carrusel .item {
-    height: 400px;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
   }
 }
 .carrusel .img1 {
@@ -180,6 +184,27 @@ Carrusel
 }
 .carrusel .img3 {
   background-image: url("../img/carrusel/3.jpg");
+}
+
+/*=================================================
+Division
+=================================================*/
+.division {
+  margin: auto;
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  border-bottom: 3px solid #e4ff1a;
+  border-radius: 3px;
+  width: 80%;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+@media only screen and (min-width: 1024px) {
+  .division {
+    font-size: 30px;
+    width: 700px;
+    border-bottom: 4px solid #e4ff1a;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
