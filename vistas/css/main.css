@@ -223,8 +223,21 @@ Skill
   padding: 10px;
 }
 .skills .interno {
-  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 20px;
   margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  .skills .interno {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .skills .interno {
+    width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 .skills .interno .skill1,
 .skills .interno .skill2,
@@ -233,10 +246,17 @@ Skill
   width: 280px;
   height: 220px;
   margin: auto;
-  margin-bottom: 20px;
   border-radius: 3px;
   text-align: center;
   color: #edf2f4;
+}
+@media only screen and (min-width: 1024px) {
+  .skills .interno .skill1,
+.skills .interno .skill2,
+.skills .interno .skill3,
+.skills .interno .skill4 {
+    margin-bottom: 5px;
+  }
 }
 .skills .interno .skill1 span,
 .skills .interno .skill2 span,
@@ -278,19 +298,19 @@ Skill
 }
 .skills .interno .skill2 {
   background: #4e2e8f;
-  background-image: url("../img/responsivo_fondo.png");
+  background-image: url("../img/linea_fondo.png");
   background-repeat: no-repeat;
   background-position: bottom;
 }
 .skills .interno .skill3 {
   background: #652a5e;
-  background-image: url("../img/responsivo_fondo.png");
+  background-image: url("../img/diseno_fondo.png");
   background-repeat: no-repeat;
   background-position: bottom;
 }
 .skills .interno .skill4 {
   background: #875415;
-  background-image: url("../img/responsivo_fondo.png");
+  background-image: url("../img/dispo_fondo.png");
   background-repeat: no-repeat;
   background-position: bottom;
 }
