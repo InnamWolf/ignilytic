@@ -16,7 +16,6 @@ body {
 Nav Movil
 =================================================*/
 .movil {
-  display: block;
   @include desktop {
     display: none;
   }
@@ -79,10 +78,89 @@ Nav Movil
 /*=================================================
 Nav PC
 =================================================*/
+.pc {
+  display: none;
+  @include desktop {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10px;
+    a {
+      text-decoration: none;
+      color: $gris;
+      &:hover {
+        color: $limon;
+      }
+    }
+    // Logo
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      .menu {
+        font-size: 25px;
+        color: $gris;
+        cursor: pointer;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        img {
+          height: 50px;
+          margin-right: 15px;
+        }
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+    .contenedor-item {
+      width: 80%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      align-items: center;
+      .btn-saga {
+        background: $azul-claro;
+        border-radius: 3px;
+        border: none;
+        width: 120px;
+        text-align: center;
+        padding: 10px;
+        &:hover {
+          background: darken($azul-claro, 5);
+        }
+      }
+    }
+  }
+}
 
 /*=================================================
 Carrusel
 =================================================*/
 .carrusel {
-  background: pink;
+  .owl-nav {
+    margin-top: 0;
+  }
+  .item {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    @include desktop {
+      height: 400px;
+    }
+  }
+  .img1 {
+    background-image: url('../img/carrusel/1.jpg');
+  }
+  .img2 {
+    background-image: url('../img/carrusel/2.jpg');
+  }
+  .img3 {
+    background-image: url('../img/carrusel/3.jpg');
+  }
 }

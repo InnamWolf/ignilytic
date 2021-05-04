@@ -53,13 +53,12 @@
   <!--===============================================
   Menu PC
   =================================================-->
-  <!-- <nav class="pc">
+  <nav class="pc">
       <div class="logo">
         <a href="#">
           <img src="vistas/img/logo.svg" alt="logo">
           <span>Ignilytic</span>
-        </a>
-        <i class="fa fa-bars menu" id="menu" aria-hidden="true"></i>
+        </a>        
       </div>
       <div class="contenedor-item">
         <a href="#">Inicio</a>
@@ -68,11 +67,26 @@
         <a href="#">FAQ</a>
         <a href="#" class="btn-saga">Iniciar sesión</a>
       </div>        
-    </nav> -->
+    </nav>
   </div>
   <!--===============================================
   Carrusel
   =================================================-->    
+  <div class="owl-carousel owl-theme carrusel">
+    <div class="item img1"></div>
+    <div class="item img2"></div>
+    <div class="item img3"></div>     
+  </div>
+  <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,    
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    center: true,
+    items:1,margin: 2,    
+})
+    </script>  
   <script src="vistas/js/main.js"></script>
 </body>
 </html>

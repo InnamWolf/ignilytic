@@ -33,7 +33,6 @@ body {
 Nav Movil
 =================================================*/
 .movil {
-  display: block;
   width: 100%;
   padding: 10px;
   font-family: "Fredoka One", cursive;
@@ -95,11 +94,92 @@ Nav Movil
 /*=================================================
 Nav PC
 =================================================*/
+.pc {
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  .pc {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .pc a {
+    text-decoration: none;
+    color: #edf2f4;
+  }
+  .pc a:hover {
+    color: #e4ff1a;
+  }
+  .pc .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .pc .logo .menu {
+    font-size: 25px;
+    color: #edf2f4;
+    cursor: pointer;
+  }
+  .pc .logo a {
+    display: flex;
+    align-items: center;
+  }
+  .pc .logo a img {
+    height: 50px;
+    margin-right: 15px;
+  }
+  .pc .logo a span {
+    font-size: 20px;
+  }
+  .pc .contenedor-item {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+  }
+  .pc .contenedor-item .btn-saga {
+    background: #63adf2;
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+  }
+  .pc .contenedor-item .btn-saga:hover {
+    background: #4ba1f0;
+  }
+}
+
 /*=================================================
 Carrusel
 =================================================*/
-.carrusel {
-  background: pink;
+.carrusel .owl-nav {
+  margin-top: 0;
+}
+.carrusel .item {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+}
+@media only screen and (min-width: 1024px) {
+  .carrusel .item {
+    height: 400px;
+  }
+}
+.carrusel .img1 {
+  background-image: url("../img/carrusel/1.jpg");
+}
+.carrusel .img2 {
+  background-image: url("../img/carrusel/2.jpg");
+}
+.carrusel .img3 {
+  background-image: url("../img/carrusel/3.jpg");
 }
 
 /*# sourceMappingURL=main.css.map */
