@@ -115,7 +115,17 @@
         <p>Aplicaciones web funcionales y estables disponibles en cualquier momento</p>
       </div>
     </div>
-  </section>  
+  </section> 
+  
+  <!--===============================================
+  Division
+  =================================================-->
+  <section class="division" style="margin-Top:20px">
+    <p>Servicios destacados</p>
+  </section>
+    <p class="txt-suelto">
+      Servicios más solicitados por nuestros usuarios, tanto particulares como empresas
+    </p>
 <script src="vistas/js/main.js"></script>
 </body>
 </html>
