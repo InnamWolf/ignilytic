@@ -3,7 +3,7 @@ Animar menu
 =================================================*/
 $(document).ready(function () {
   $('.menu').click(function () {
-    $('.contenedor-item').toggle('blind', 800);
+    $('.contenedor-item').toggle();
   });
 });
 

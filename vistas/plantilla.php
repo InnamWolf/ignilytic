@@ -25,8 +25,7 @@
   =================================================-->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLY0H0KFYK"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
   <script rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
@@ -50,6 +49,7 @@
         <a href="#" class="btn-saga">Iniciar sesión</a>
       </div>        
     </nav>
+
   <!--===============================================
   Menu PC
   =================================================-->
@@ -69,6 +69,7 @@
       </div>        
     </nav>
   </div>
+
   <!--===============================================
   Carrusel
   =================================================-->    
@@ -77,12 +78,44 @@
     <div class="item img2"></div>
     <div class="item img3"></div>     
   </div>
+
   <!--===============================================
-  Texto 1
+  Division
   =================================================-->
   <section class="division">
     <p>Soluciones en tecnología para tu proyecto</p>
   </section>
+    <p class="txt-suelto">
+      Nos preocupamos por dar siempre el mejor servicio a nuestros clientes logrando cumplir todas las expectativas
+    </p>
+
+  <!--===============================================
+  Skills
+  =================================================-->
+  <section class="skills">
+    <div class="interno">
+      <div class="skill1">
+        <div class="imagen1"><img src="vistas/img/responsivo.svg" alt="original"></div>
+        <span>Diseño responsivo</span>
+        <p>Creamos páginas web que se adaptan a cualquier tamaño de pantalla logrando que tu sitio web sea accesible desde cualquier dispositivo</p>
+      </div>
+      <div class="skill2">
+        <div class="imagen2"><img src="vistas/img/pago_linea.svg" alt="original"></div>
+        <span>Pagos en linea</span>
+        <p>Alcanza un mayor mercado vendiendo en internet</p>
+      </div>
+      <div class="skill3">
+        <div class="imagen3"><img src="vistas/img/original.svg" alt="original"></div>
+        <span>Diseño original</span>
+        <p>No ocupamos plantillas, cada diseño es único y personalizado, así podemos garantizar la originalidad de tu marca</p>
+      </div>
+      <div class="skill4">
+        <div class="imagen4"><img src="vistas/img/disponible.svg" alt="original"></div>
+        <span>Disponibilidad</span>
+        <p>Aplicaciones web funcionales y estables disponibles en cualquier momento</p>
+      </div>
+    </div>
+  </section>  
 <script src="vistas/js/main.js"></script>
 </body>
 </html>

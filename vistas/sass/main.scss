@@ -184,5 +184,75 @@ Division
     font-size: 30px;
     width: 700px;
     border-bottom: 4px solid $limon;
+    margin-top: 20px;
+  }
+}
+
+.txt-suelto {
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  color: $gris;
+}
+
+/*=================================================
+Skill
+=================================================*/
+.skills {
+  background: $azul-raro;
+  padding: 10px;
+  .interno {
+    width: 90%;
+    margin: auto;
+    .skill1,
+    .skill2,
+    .skill3,
+    .skill4 {
+      width: 280px;
+      height: 220px;
+      margin: auto;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      text-align: center;
+      color: $gris;
+      span {
+        font-weight: 700;
+        font-size: 20px;
+      }
+      p {
+        margin-top: 10px;
+      }
+      .imagen1,
+      .imagen2,
+      .imagen3,
+      .imagen4 {
+        text-align: center;
+        padding-top: 20px;
+      }
+    }
+    .skill1 {
+      background: #3e688e;
+      background-image: url('../img/responsivo_fondo.png');
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    .skill2 {
+      background: #4e2e8f;
+      background-image: url('../img/responsivo_fondo.png');
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    .skill3 {
+      background: #652a5e;
+      background-image: url('../img/responsivo_fondo.png');
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    .skill4 {
+      background: #875415;
+      background-image: url('../img/responsivo_fondo.png');
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
   }
 }

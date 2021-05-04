@@ -204,7 +204,95 @@ Division
     font-size: 30px;
     width: 700px;
     border-bottom: 4px solid #e4ff1a;
+    margin-top: 20px;
   }
+}
+
+.txt-suelto {
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  color: #edf2f4;
+}
+
+/*=================================================
+Skill
+=================================================*/
+.skills {
+  background: #383a55;
+  padding: 10px;
+}
+.skills .interno {
+  width: 90%;
+  margin: auto;
+}
+.skills .interno .skill1,
+.skills .interno .skill2,
+.skills .interno .skill3,
+.skills .interno .skill4 {
+  width: 280px;
+  height: 220px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  text-align: center;
+  color: #edf2f4;
+}
+.skills .interno .skill1 span,
+.skills .interno .skill2 span,
+.skills .interno .skill3 span,
+.skills .interno .skill4 span {
+  font-weight: 700;
+  font-size: 20px;
+}
+.skills .interno .skill1 p,
+.skills .interno .skill2 p,
+.skills .interno .skill3 p,
+.skills .interno .skill4 p {
+  margin-top: 10px;
+}
+.skills .interno .skill1 .imagen1,
+.skills .interno .skill1 .imagen2,
+.skills .interno .skill1 .imagen3,
+.skills .interno .skill1 .imagen4,
+.skills .interno .skill2 .imagen1,
+.skills .interno .skill2 .imagen2,
+.skills .interno .skill2 .imagen3,
+.skills .interno .skill2 .imagen4,
+.skills .interno .skill3 .imagen1,
+.skills .interno .skill3 .imagen2,
+.skills .interno .skill3 .imagen3,
+.skills .interno .skill3 .imagen4,
+.skills .interno .skill4 .imagen1,
+.skills .interno .skill4 .imagen2,
+.skills .interno .skill4 .imagen3,
+.skills .interno .skill4 .imagen4 {
+  text-align: center;
+  padding-top: 20px;
+}
+.skills .interno .skill1 {
+  background: #3e688e;
+  background-image: url("../img/responsivo_fondo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.skills .interno .skill2 {
+  background: #4e2e8f;
+  background-image: url("../img/responsivo_fondo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.skills .interno .skill3 {
+  background: #652a5e;
+  background-image: url("../img/responsivo_fondo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.skills .interno .skill4 {
+  background: #875415;
+  background-image: url("../img/responsivo_fondo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 /*# sourceMappingURL=main.css.map */
