@@ -267,3 +267,56 @@ Skill
     }
   }
 }
+
+/*=================================================
+Servicios destacados
+=================================================*/
+.destacados {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 20px;
+  font-family: $fredo;
+  font-size: 20px;
+  @include tablet {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include desktop {
+    width: 1200px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .destacados-item {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    margin: auto;
+    img {
+      height: 100px;
+    }
+    .destacados-txt {
+      text-align: center;
+    }
+  }
+}
+.destacados-item:nth-child(1) {
+  background: $naranja;
+}
+.destacados-item:nth-child(2) {
+  background: $azul-claro;
+}
+.destacados-item:nth-child(3) {
+  background: $amarillo;
+  @include tablet {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  @include desktop {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+}

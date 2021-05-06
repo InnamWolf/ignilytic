@@ -126,6 +126,30 @@
     <p class="txt-suelto">
       Servicios más solicitados por nuestros usuarios, tanto particulares como empresas
     </p>
+
+  <!--===============================================
+  Servisios destacados
+  =================================================--> 
+  <section class="destacados">
+    <div class="destacados-item">
+      <img src="vistas/img/internet.svg" alt="Diseño">
+      <p class="destacados-txt">
+        Diseño de páginas web
+      </p>
+    </div>
+    <div class="destacados-item">
+      <img src="vistas/img/computer.svg" alt="Grafico">
+      <p class="destacados-txt">
+        Diseño gráfico
+      </p>
+    </div>
+    <div class="destacados-item">
+      <img src="vistas/img/mantenimiento.svg" alt="Mantenimiento">
+      <p class="destacados-txt">
+        Mantenimiento computadoras
+      </p>
+    </div>
+  </section>
 <script src="vistas/js/main.js"></script>
 </body>
 </html>
