@@ -17,5 +17,11 @@ $('.owl-carousel').owlCarousel({
   autoplayHoverPause: true,
   center: true,
   items: 1,
-  margin: 2,
+  margin: 12,
+  /* responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  }, */
 });
