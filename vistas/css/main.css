@@ -406,6 +406,9 @@ footer .footer-dentro .logo a {
 footer .footer-dentro .logo img {
   height: 80px;
 }
+footer .footer-dentro .logo span {
+  margin-left: 10px;
+}
 footer .footer-dentro .footer-menu {
   margin-top: 20px;
   border-bottom: 1px solid #edf2f4;
