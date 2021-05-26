@@ -13,7 +13,8 @@ Menu movil
     <a href="inicio">Inicio</a>
     <a href="servicios">Servicios</a>
     <a href="portafolio">Portafolio</a>
-    <a href="faq">FAQ</a>
+    <a href="contacto">Contacto</a>
+    <a href="faq">FAQ</a>    
     <a href="#" class="btn-saga">Iniciar sesión</a>
   </div>        
 </nav>
@@ -32,7 +33,8 @@ Menu PC
     <a href="inicio">Inicio</a>
     <a href="servicios">Servicios</a>
     <a href="portafolio">Portafolio</a>
-    <a href="faq">FAQ</a>
+    <a href="contacto">Contacto</a>
+    <a href="faq">FAQ</a>    
     <a href="#" class="btn-saga">Iniciar sesión</a>
   </div>        
 </nav>
