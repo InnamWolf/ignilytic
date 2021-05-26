@@ -23,16 +23,16 @@ Menu PC
 =================================================-->
 <nav class="pc">
   <div class="logo">
-    <a href="#">
+    <a href="inicio">
       <img src="vistas/img/logo.svg" alt="logo">
       <span>Ignilytic</span>
     </a>        
   </div>
   <div class="contenedor-item">
-    <a href="#">Inicio</a>
-    <a href="#">Servicios</a>
-    <a href="#">Portafolio</a>
-    <a href="#">FAQ</a>
+    <a href="inicio">Inicio</a>
+    <a href="servicios">Servicios</a>
+    <a href="portafolio">Portafolio</a>
+    <a href="faq">FAQ</a>
     <a href="#" class="btn-saga">Iniciar sesión</a>
   </div>        
 </nav>

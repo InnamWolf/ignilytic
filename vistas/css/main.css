@@ -328,6 +328,10 @@ Servicios destacados
   font-family: "Fredoka One", cursive;
   font-size: 20px;
 }
+.destacados a {
+  text-decoration: none;
+  color: #000000;
+}
 @media only screen and (min-width: 768px) {
   .destacados {
     width: 80%;

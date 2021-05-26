@@ -273,6 +273,10 @@ Skill
 Servicios destacados
 =================================================*/
 .destacados {
+  a {
+    text-decoration: none;
+    color: $negro;
+  }
   width: 90%;
   margin: auto;
   display: grid;

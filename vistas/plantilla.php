@@ -38,37 +38,37 @@
       include_once 'paginas/menu.php';
       
       /*=============================================
-        PÁGINAS
-        =============================================*/
+      PÁGINAS
+      =============================================*/
 
-        if(isset($_GET["pagina"])){
+      if(isset($_GET["pagina"])){
 
-          if($_GET["pagina"] == "inicio" ||
-          $_GET["pagina"] == "servicios" ||
-          $_GET["pagina"] == "faq" ||            
-          $_GET["pagina"] == "contacto" ||
-          $_GET["pagina"] == "pagina-web" ||
-          $_GET["pagina"] == "app-web" ||
-          $_GET["pagina"] == "diseno" ||
-          $_GET["pagina"] == "social" ||
-          $_GET["pagina"] == "seguro" ||
-          $_GET["pagina"] == "mantenimiento" ||
-          $_GET["pagina"] == "preventivo" ||
-          $_GET["pagina"] == "ti" ||
-          $_GET["pagina"] == "enviar" ||
-          $_GET["pagina"] == "enviado" ||
-          $_GET["pagina"] == "noenviado" ||
-          $_GET["pagina"] == "politica" 
-          ){
+        if($_GET["pagina"] == "inicio" ||
+        $_GET["pagina"] == "servicios" ||
+        $_GET["pagina"] == "faq" ||            
+        $_GET["pagina"] == "contacto" ||
+        $_GET["pagina"] == "pagina-web" ||
+        $_GET["pagina"] == "app-web" ||
+        $_GET["pagina"] == "diseno" ||
+        $_GET["pagina"] == "social" ||
+        $_GET["pagina"] == "seguro" ||
+        $_GET["pagina"] == "mantenimiento" ||
+        $_GET["pagina"] == "preventivo" ||
+        $_GET["pagina"] == "ti" ||
+        $_GET["pagina"] == "enviar" ||
+        $_GET["pagina"] == "enviado" ||
+        $_GET["pagina"] == "noenviado" ||
+        $_GET["pagina"] == "politica" 
+        ){
 
-              include "paginas/".$_GET["pagina"].".php";
+          include "paginas/".$_GET["pagina"].".php";
 
-          }else{
-              
-              include "paginas/404.php";
-          }
+        }else{
+            
+            include "paginas/404.php";
+        }
 
-          
+            
       }else{
           include "paginas/inicio.php";    
       }       
