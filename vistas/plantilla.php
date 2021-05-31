@@ -58,6 +58,7 @@
         $_GET["pagina"] == "enviar" ||
         $_GET["pagina"] == "enviado" ||
         $_GET["pagina"] == "noenviado" ||
+        $_GET["pagina"] == "portafolio" ||
         $_GET["pagina"] == "politica" 
         ){
 

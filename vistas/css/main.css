@@ -465,4 +465,84 @@ footer .footer-dentro .footer-sociales .sociales a {
   }
 }
 
+/*=================================================
+Error 404 pagina
+=================================================*/
+.error {
+  background-image: url("../img/404.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 95%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+  color: #ffffff;
+}
+@media only screen and (min-width: 1024px) {
+  .error {
+    width: 1200px;
+    margin-top: 20px;
+    padding: 100px;
+  }
+}
+.error .numero,
+.error .txt {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Fredoka One", cursive;
+}
+@media only screen and (min-width: 1024px) {
+  .error .numero,
+.error .txt {
+    font-size: 100px;
+  }
+}
+.error .txt2 {
+  text-align: center;
+  margin-top: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  .error .txt2 {
+    font-size: 25px;
+  }
+}
+.error ul {
+  margin-top: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  .error ul {
+    display: flex;
+  }
+}
+.error ul li {
+  list-style: none;
+  margin-top: 10px;
+  text-align: center;
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.error ul li a {
+  text-decoration: none;
+  width: 100%;
+  color: #ffffff;
+}
+.error ul li:nth-child(1) {
+  background: #8447ff;
+}
+.error ul li:nth-child(2) {
+  background: #40798c;
+}
+.error ul li:nth-child(3) {
+  background: #f79824;
+}
+.error ul li:nth-child(4) {
+  background: #fec108;
+}
+.error ul li:nth-child(5) {
+  background: #63adf2;
+}
+
 /*# sourceMappingURL=main.css.map */
