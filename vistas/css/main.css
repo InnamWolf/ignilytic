@@ -545,4 +545,153 @@ Error 404 pagina
   background: #63adf2;
 }
 
+/*=================================================
+Servicos
+=================================================*/
+.servicios {
+  width: 95%;
+  margin: auto;
+}
+.servicios .serv-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .servicios .serv-item {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .servicios .serv-item {
+    margin: auto;
+    margin-top: 20px;
+    width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.servicios .serv-item .serv-item-web {
+  background: #875415;
+  background-image: url("../img/ser-web-fondo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.servicios .serv-item .serv-item-mantenimiento {
+  background: #3e688e;
+  background-image: url("../img/ser-mantenimiento-fondo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.servicios .serv-item .serv-item-grafico {
+  background: #652a5e;
+  background-image: url("../img/ser-diseno-fondo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.servicios .serv-item .serv-item-app {
+  background: #968d27;
+  background-image: url("../img/ser-app-fondo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.servicios .serv-item .serv-item-web,
+.servicios .serv-item .serv-item-mantenimiento,
+.servicios .serv-item .serv-item-grafico,
+.servicios .serv-item .serv-item-app {
+  padding: 20px;
+  border-radius: 3px;
+  width: 285px;
+}
+.servicios .serv-item .serv-item-web span,
+.servicios .serv-item .serv-item-mantenimiento span,
+.servicios .serv-item .serv-item-grafico span,
+.servicios .serv-item .serv-item-app span {
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+.servicios .serv-item .serv-item-web img,
+.servicios .serv-item .serv-item-mantenimiento img,
+.servicios .serv-item .serv-item-grafico img,
+.servicios .serv-item .serv-item-app img {
+  margin: auto;
+  margin-top: 15px;
+  height: 100px;
+  display: block;
+}
+.servicios .serv-item .serv-item-web p,
+.servicios .serv-item .serv-item-mantenimiento p,
+.servicios .serv-item .serv-item-grafico p,
+.servicios .serv-item .serv-item-app p {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.servicios .serv-item .serv-item-web .serv-btn,
+.servicios .serv-item .serv-item-mantenimiento .serv-btn,
+.servicios .serv-item .serv-item-grafico .serv-btn,
+.servicios .serv-item .serv-item-app .serv-btn {
+  background: #ff5876;
+  width: 150px;
+  padding: 10px;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 20px;
+}
+.servicios .serv-item .serv-item-web .serv-btn a,
+.servicios .serv-item .serv-item-mantenimiento .serv-btn a,
+.servicios .serv-item .serv-item-grafico .serv-btn a,
+.servicios .serv-item .serv-item-app .serv-btn a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+.servicios .serv-item .serv-item-web .serv-btn a:hover,
+.servicios .serv-item .serv-item-mantenimiento .serv-btn a:hover,
+.servicios .serv-item .serv-item-grafico .serv-btn a:hover,
+.servicios .serv-item .serv-item-app .serv-btn a:hover {
+  color: #ffffff;
+}
+.servicios .servcios-equipo {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background: #383a55;
+  padding: 10px;
+  border-radius: 3px;
+  color: #ffffff;
+  width: 95%;
+}
+@media only screen and (min-width: 768px) {
+  .servicios .servcios-equipo {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .servicios .servcios-equipo {
+    width: 1200px;
+    padding: 20px;
+  }
+}
+.servicios .servcios-equipo p {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.servicios .servcios-equipo p:nth-child(3) {
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
